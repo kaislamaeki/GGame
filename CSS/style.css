@@ -19,7 +19,7 @@ header{
     background: transparent;
 }
 body{
-    background: red;
+    background: rgb(46, 42, 42);
 }
 .logo{
     font-size: 30px;
@@ -39,4 +39,22 @@ body{
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid white ; /*ხაზს აჩენს მენიუს წარწერი დაბლა რაც ნელნელა მკრთალდება */
+} 
+
+#menu-icon{
+    color: white;
+    font-size: 35px; /* მენიუს ბათონის ზომა */
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59 #4d9559, #38703d 28.53%, #133917 75.52%);
 }

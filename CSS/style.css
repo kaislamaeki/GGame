@@ -42,6 +42,7 @@ header{
     border-bottom: 2px solid white ; /*ხაზს აჩენს მენიუს წარწერი დაბლა რაც ნელნელა მკრთალდება */
 } 
 
+
 #menu-icon{
     color: white;
     font-size: 35px; /* მენიუს ბათონის ზომა */
@@ -54,5 +55,32 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59 #4d9559, #38703d 28.53%, #133917 75.52%);
+    background: linear-gradient(245.59deg, #4d5959 0%, #38703d 28.53%, #133917 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2 rem;
+}
+section{
+    padding: 0 19%;
+}
+.hero-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.hero-text h1{
+    font-family: 'Permanen Marker', cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: red;
+    margin: 0 0 45px;
+}
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: goldenrod;
+    margin-bottom: 10px;
 }

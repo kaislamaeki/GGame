@@ -216,6 +216,10 @@ section{
     }
 }
 @media (max-width: 990px){
+    .logo-img img{
+        width: 50px;
+        height: auto;
+    }
     #menu-icon{
         display: block;
     }
@@ -246,5 +250,9 @@ section{
     width: 100%;
     height: auto;
 }
+}
+.logo-img img{
+    width: 10%;
+    height: auto;
 }
 

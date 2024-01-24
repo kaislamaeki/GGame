@@ -344,3 +344,6 @@ section {
   z-index: 100;
   position: relative;
 }
+.hero h2{
+  color: goldenrod;
+}

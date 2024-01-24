@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
         <header id="header">
@@ -38,40 +38,32 @@
         <div id="example"></div>
         <section class="hero">
             <div class="hero-text">
-                <h5>#1 Trending</h5>
-                <h4>Meistverkauft</h4>
-                <h1>Tom's Insel</h1>
-                <p>Tauche ein in die zauberhafte Welt von Tom's Inselabenteuer!<br>Begleite den tapferen Jungen Tom und seinen sprechenden Papagei Coco auf einer Reise voller Magie,<br>Freundschaft und aufregender Abenteuer.</p>
-                <a href="tomsinsel.html">spielübersicht</a>
-                <a href="#" class="ctaa" id="playButton">
-                    <i class="ri-play-fill">Radiospot</i>
-                  </a>
-                  
-                  <audio id="gameAudio" src="Audio\TomsInsel.mp3"></audio>
-                  
-                  <script>
-                    // Warte, bis das DOM vollständig geladen ist
-                    document.addEventListener('DOMContentLoaded', function() {
-                      // Holen Sie sich die DOM-Elemente
-                      var playButton = document.getElementById('playButton');
-                      var gameAudio = document.getElementById('gameAudio');
-                  
-                      // Füge einen Klick-Eventlistener zum Abspielen des Audios hinzu
-                      playButton.addEventListener('click', function() {
-                        // Überprüfe, ob das Audio gerade spielt, und pausiere es gegebenenfalls
-                        if (gameAudio.paused) {
-                          gameAudio.play();
-                        } else {
-                          gameAudio.pause();
-                        }
-                      });
-                    });
-                  </script>
-              
-            </div>
-            <div class="hero-img">
-                <img src="images/tomi(2).png"  alt="Tom's Image">
-                
+                <h2>Impresium</h2>
+                <h6>Autor:innen </h6>
+                <h6>Emre Gürlük, Sergi Koniashvili, Kaisla Mäki</h6>
+                <p1> Übungsaufgabe im Kurs Grundlagen der Medieninformatik 1 </p1>
+                <p1> Veranstalter 
+                    Prof.Dr-Ing. Udo Frese
+                    Universität
+                    Enrique-Schmidt-Str.5
+                    28359 Bremen
+                    ufrese@uni-bremen.de </p1>
+                    <h2>Quellenverweise</h2>
+                    <p1>Die Quellen für unsere Website findest du hier:</p1>
+                    <ul>
+                        <li>Audio: Anystyle, Insel Musik, 2023 - <a href="https://pixabay.com/de/music/frohliche-kinderlieder-happy-summer-beach-175238/">Quelle</a></li>
+                        <li>Audio: Luxiyo, Papagei, 2023 - <a href="https://pixabay.com/de/sound-effects/papagei-krachzen-162664/">Quelle</a></li>
+                        <li>Stockfoto: GrapicMama-team, Papagei, 2016 - <a href="https://pixabay.com/de/vectors/papagei-tier-vogel-clip-art-1417286/">Quelle</a></li>
+                        <li>Stockfoto: Pixabay, Nintendo Switch, 2017 - <a href="https://www.pexels.com/de-de/foto/roter-und-gruner-nintendo-schalter-eingeschaltet-371924/">Quelle</a></li>
+                        <li>KI Bild: Abenteurer, 2023 - <a href="https://stablediffusionweb.com/">Quelle</a></li>
+                        <li>KI Bild: Karte, 2024 - <a href="https://stablediffusionweb.com/">Quelle</a></li>
+                        <li>KI Bild: Truhen, 2024 - <a href="https://stablediffusionweb.com/">Quelle</a></li>
+                        <li>Fonts, 2024 - <a href="https://fonts.google.com/">Quelle</a></li>
+                        <li>Web Icons, 2024 - <a href="https://boxicons.com/">Quelle</a></li>
+                        <li>KI Bild: Tom, 2024 - <a href="https://stablediffusionweb.com/">Quelle</a></li>
+                    </ul>
+                </section>
+
             </div>
 
         </section>
@@ -81,6 +73,7 @@
             <a href="#"><i class="ri-facebook-circle-line"></i></a>
         </div>
 
+        
         <div class="scroll-down">
             <a href="#example"><i class="ri-arrow-down-s-fill">
             </i>
@@ -92,7 +85,5 @@
 
         <!---custom js link--->
         <script src="js/script.js"></script>
-
-        
-    </body>
+s    </body>
 </html>

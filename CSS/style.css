@@ -332,6 +332,7 @@ section {
 .wrapper {
   height: 220px;
   width: 220px;
+  color: white;
 }
 .wrapper img {
   height: 100%;

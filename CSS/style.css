@@ -43,12 +43,12 @@ header {
 }
 
 .navlist a:hover {
-  border-bottom: 2px solid white; /*ხაზს აჩენს მენიუს წარწერი დაბლა რაც ნელნელა მკრთალდება */
+  border-bottom: 2px solid white; /*Die Zeile wird durch die Beschriftung des Menüs am unteren Rand hervorgehoben, die langsam verblasst */
 }
 
 #menu-icon {
   color: white;
-  font-size: 35px; /* მენიუს ბათონის ზომა */
+  font-size: 35px; /* size von meniu icon */
   z-index: 10001;
   cursor: pointer;
   display: none;
@@ -247,7 +247,7 @@ section {
     gap: 1rem;
     grid-template-columns: 1fr;
   }
-  /*ძაან თუ დაპატარავდება ეკრანი აიქონები გაქრებას */
+  /*meniu change */
   .icons {
     display: none;
   }

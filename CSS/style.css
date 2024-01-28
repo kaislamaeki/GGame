@@ -143,6 +143,10 @@ section {
   vertical-align: middle;
   margin-right: 5px;
 }
+
+.hero h6,p1,p,ul{
+  color: white;
+}
 .icons {
   margin-left: 50px;
   position: absolute;
